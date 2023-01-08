@@ -114,13 +114,11 @@ const result = validateInput (inputId, inputValue);
          style={{ marginTop: 20}}
          disabled = {!formState.formIsValid}/>
         
-    }
-
+        }
     </>
 
     );
-
-   }
+}
 
 
 

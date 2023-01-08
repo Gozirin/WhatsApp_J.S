@@ -67,7 +67,7 @@ console.log(messageText);
         </View>
         </KeyboardAvoidingView>
      </SafeAreaView>
-     )
+     ) 
 
 };
 

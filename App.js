@@ -9,41 +9,9 @@ import * as Font from 'expo-font';
 
 import AppNavigator from './navigation/AppNavigator';
 
-LogBox.ignoreLogs(('AsyncStorage has been extracted'));
+// LogBox.ignoreLogs(('AsyncStorage has been extracted'));
 
 SplashScreen.preventAutoHideAsync();
-
-   // SENT TO APP NAVIGATOR
-// const Stack = createStackNavigator();
-// const Tab = createBottomTabNavigator();
- 
-// //BOTTOM-TAB NAVIGATION
-// const TabNavigator = () => {
-//   return (
-//     <Tab.Navigator
-//     //screenOptions={{headerTitle:''}}
-//     >
-//       <Tab.Screen name= "ChatList" 
-//       component={ChatListScreen} 
-//       options={{tabBarLabel: 'Chats',
-//       tabBarIcon:() => { 
-//         return<Ionicons name=
-//         "chatbubbles-outline" 
-//         size={24} color="#00FF5C" />}
-//     }}/>
-      
-//       <Tab.Screen name= "Settings" 
-//       component={SettingsScreen}
-//       options={{tabBarLabel: 'Settings',
-//       tabBarIcon:({color,size}) => { 
-//         return<Ionicons name=
-//         "settings-outline" 
-//         size={size} color= {color} />}
-//         }}/>
-//     </Tab.Navigator>
-//   )
-// }
-
 
 export default function App() {
 
